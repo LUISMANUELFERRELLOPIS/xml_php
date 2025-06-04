@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<users>
+  <user>
+    <id>1</id>
+    <firstname>Angel/firstname>
+    <lastname>gonzalez</lastname>
+    <address>ciudad del campo </address>
+  </user>
+  <user>
+    <id>2</id>
+    <firstname>benedicta/firstname>
+    <lastname>gonzalez</lastname>
+    <address>san lorenzo</address>
+  </user>
+  <user>
+    <id>3</id>
+    <firstname>jose del pino</firstname>
+    <lastname>hernandez</lastname>
+    <address>telde</address>
+  </user>
+  <user>
+    <id>4</id>
+    <firstname>julia</firstname>
+    <lastname>gonzalez</lastname>
+    <address>guia</address>
+  </user>
+  <user>
+    <id>5</id>
+    <firstname>isabel/firstname>
+    <lastname>de leon</lastname>
+    <address>hoya andrea</address>
+  </user>
+  <id>6</id>
+  <firstname>carlos</firstname>
+    <lastname>gonzalez</lastname>
+    <address>las torres</address>
+</user>
+  <id>7</id>
+  <firstname>carmen</firstname>
+    <lastname>gonzalez</lastname>
+    <address>madrid</address>
+</user>
+</user>
+  <id>7</id>
+  <firstname>paula</firstname>
+    <lastname>hernandez</lastname>
+    <address>san sebastian</address>
+</user>
+<id>8</id>
+  <firstname>noelia</firstname>
+    <lastname>garcia</lastname>
+    <address>los giles</address>
+</user>
+<id>9</id>
+  <firstname>cynthia</firstname>
+    <lastname>acosta</lastname>
+    <address>la milagrosa</address>
+</user>
+<id>10</id>
+  <firstname>javier</firstname>
+    <lastname>gonzalez/lastname>
+    <address>barcelona/address>
+</user>
+</users>
+
