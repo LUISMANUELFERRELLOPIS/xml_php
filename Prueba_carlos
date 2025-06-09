@@ -1,0 +1,27 @@
+// Función para calcular ganancias en una apuesta deportiva
+function calcularGanancia() {
+    let montoApuesta = parseFloat(document.getElementById("monto").value);
+    let cuotaSeleccionada = parseFloat(document.getElementById("cuota").value);
+
+    if (isNaN(montoApuesta) || isNaN(cuotaSeleccionada)) {
+        alert("Por favor, ingresa un monto y una cuota válidos.");
+        return;
+    }
+ let gananciaPotencial = montoApuesta * cuotaSeleccionada;
+    document.getElementById("resultado").innerText = `Ganancia potencial: ${gananciaPotencial.toFixed(2)} €`;
+}
+
+// Código HTML básico para integrar el script
+document.write(`
+    <h2>Calculadora de Apuestas Deportivas</h2>
+    <label>Monto de apuesta (€): </label>
+    <input type="number" id="monto"><br><br>
+    
+    <label>Cuota seleccionada: </label>
+    <input type="number" step="0.01" id="cuota"><br><br>
+
+    <button onclick="calcularGanancia()">Calcular Ganancia</button>
+    <p id="resultado"></p>
+`);
+
+
